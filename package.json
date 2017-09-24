@@ -8,14 +8,13 @@
     "react-scripts": "1.0.13"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook -c .storybook -o .out",
     "lint": "eslint .",
     "jest": "jest --env=jsdom",
     "test": "run-s lint jest",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "@storybook/react": "^3.2.10",
