@@ -1,5 +1,7 @@
 # StoryBook Boilerplate
 [![Build Status](https://travis-ci.org/SaraVieira/storybook-boilerplate.svg?branch=master)](https://travis-ci.org/SaraVieira/storybook-boilerplate)
+[![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/storybook-boilerplate.svg)](https://greenkeeper.io/)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Simple boilerplate to kickstart your styleguide endeavors with [StoryBook](https://storybook.js.org)
 
