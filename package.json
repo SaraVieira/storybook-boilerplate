@@ -4,7 +4,7 @@
   "dependencies": {
     "dog-names": "^1.0.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.0.0",
     "react-scripts": "1.0.13"
   },
   "scripts": {
