@@ -3,9 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/storybook-boilerplate.svg)](https://greenkeeper.io/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/storybook-boilerplate'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/storybook-boilerplate.svg' />
-</a>
+
 
 Simple boilerplate to kickstart your styleguide endeavors with [StoryBook](https://storybook.js.org)
 
