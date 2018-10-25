@@ -14,6 +14,6 @@ storiesOf("WrappedButton", module)
   ))
   .add("with deeppink", () => (
     <WrappedButton size="large" color="deeppink">
-      Lick Me
+      Click Me
     </WrappedButton>
   ));
