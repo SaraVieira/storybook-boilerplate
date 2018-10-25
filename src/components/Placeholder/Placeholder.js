@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import "./Placeholder.css";
+import './Placeholder.css';
 
 /**
  * Image placeholders.
@@ -9,22 +9,22 @@ import "./Placeholder.css";
 class Placeholder extends Component {
   static propTypes = {
     type: PropTypes.oneOf([
-      "animal",
-      "bacon",
-      "beard",
-      "bear",
-      "cat",
-      "food",
-      "city",
-      "nature",
-      "people"
+      'animal',
+      'bacon',
+      'beard',
+      'bear',
+      'cat',
+      'food',
+      'city',
+      'nature',
+      'people'
     ]),
     width: PropTypes.number,
     height: PropTypes.number
   };
 
   static defaultProps = {
-    type: "animal",
+    type: 'animal',
     width: 150,
     height: 150
   };

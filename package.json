@@ -13,8 +13,10 @@
     "lint": "eslint .",
     "jest": "jest --env=jsdom",
     "test": "run-s lint jest",
+    "posttest": "npm run format",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "format": "prettier --write '**/*.{js,css,md}'"
   },
   "devDependencies": {
     "@storybook/react": "^3.4.11",

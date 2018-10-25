@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 /**
  * A button wrapped by a Decorator/Enhancer
@@ -22,47 +22,47 @@ const WrappedButton = ({ color, size, children }) => {
 };
 WrappedButton.propTypes = {
   /**
-	 * Button label.
-	 */
+   * Button label.
+   */
   children: PropTypes.string.isRequired,
   /**
-	 * The color for the button
-	 *
-	 * @see Check [Wikipedia](https://en.wikipedia.org/wiki/Web_colors#HTML_color_names) for a list of color names
-	 */
+   * The color for the button
+   *
+   * @see Check [Wikipedia](https://en.wikipedia.org/wiki/Web_colors#HTML_color_names) for a list of color names
+   */
   color: PropTypes.string,
   /**
-	 * The size of the Button
-	 *
-	 * @since Version 1.0.1
-	 */
-  size: PropTypes.oneOf(["small", "normal", "large"]),
+   * The size of the Button
+   *
+   * @since Version 1.0.1
+   */
+  size: PropTypes.oneOf(['small', 'normal', 'large']),
   /**
-	 * The width of the button
-	 *
-	 * @deprecated Do not use! Use size instead!
-	 */
+   * The width of the button
+   *
+   * @deprecated Do not use! Use size instead!
+   */
   width: PropTypes.number,
   /**
-	 * Gets called when the user clicks on the button
-	 *
-	 * @param { SyntheticEvent } event The react `SyntheticEvent`
-	 */
+   * Gets called when the user clicks on the button
+   *
+   * @param { SyntheticEvent } event The react `SyntheticEvent`
+   */
   onClick: PropTypes.func,
   /**
-	 * A prop that should not be visible in the doc.
-	 * @ignore
-	 */
+   * A prop that should not be visible in the doc.
+   * @ignore
+   */
   ignoredProp: PropTypes.bool
 };
 WrappedButton.defaultProps = {
-  color: "#333",
-  size: "normal"
+  color: '#333',
+  size: 'normal'
 };
 WrappedButton.sizes = {
-  small: "10px",
-  normal: "14px",
-  large: "18px"
+  small: '10px',
+  normal: '14px',
+  large: '18px'
 };
 
 const Decorator = Composed =>

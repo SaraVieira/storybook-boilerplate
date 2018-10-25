@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 /**
  * Button that counts how many times it was pressed and exposes a `@public` method to reset itself.
@@ -12,13 +12,13 @@ class CounterButton extends Component {
   }
 
   /**
-	 * Sets the counter to a particular value.
-	 *
-	 * @public
-	 * @version 1.0.5
-	 * @param {Number} newValue New value for the counter
-	 * @returns {string} Test
-	 */
+   * Sets the counter to a particular value.
+   *
+   * @public
+   * @version 1.0.5
+   * @param {Number} newValue New value for the counter
+   * @returns {string} Test
+   */
   set(newValue) {
     this.setState({
       value: parseInt(newValue, 10)
@@ -26,8 +26,8 @@ class CounterButton extends Component {
   }
 
   /**
-	 * Increments the counter. This method is not marked @public and is not visible in the styleguide.
-	 */
+   * Increments the counter. This method is not marked @public and is not visible in the styleguide.
+   */
   increment() {
     this.setState({
       value: this.state.value + 1

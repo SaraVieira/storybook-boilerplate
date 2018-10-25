@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import sample from "lodash/sample";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import sample from 'lodash/sample';
 
-import "./RandomButton.css";
+import './RandomButton.css';
 
 /**
  * Button that changes label on every click.
@@ -10,8 +10,8 @@ import "./RandomButton.css";
 class RandomButton extends Component {
   static propTypes = {
     /**
-		 * List of possible labels.
-		 */
+     * List of possible labels.
+     */
     variants: PropTypes.array.isRequired
   };
 
